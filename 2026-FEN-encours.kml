@@ -92,6 +92,7 @@ Moyens : 👨‍= xx  /  🚒= xx  /  ✈ABE= xx  /  🚁 HBE= xx</description>
 				<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
 			</LookAt>
 			<styleUrl>#msn_firedept</styleUrl>
+			<gx:balloonVisibility>1</gx:balloonVisibility>
 			<Point>
 				<gx:drawOrder>1</gx:drawOrder>
 				<coordinates>1.626629954360976,46.11670353412708,0</coordinates>
