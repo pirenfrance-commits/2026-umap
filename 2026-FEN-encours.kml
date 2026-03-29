@@ -42,30 +42,46 @@
 			<description>Nature de l&apos;évènement : Feu de forêt
 Phase de lutte : en cours
 .
-Situation : xxx hectares
-Moyens : 👨‍= xx  /  🚒= xx  /  ✈ABE= xx  /  🚁 HBE= xx</description>
+#incendie #FeuxDeForêt
+.
+➡️ ➡️ Suivi complet :: https://discord.gg/jB8Bzpbx7V
+➡️ ➡️ Suivi complet :: https://pirenfrance.wixsite.com/website
+
+--
+19:30 - Situation : Fixé - 3 hectares
+.
+Moyens : 👨‍= xx / 🚒= 14 / ✈ABE= xx / 🚁 HBE= xx
+--
+20:45 - Situation feu maîtrisé</description>
 			<LookAt>
-				<longitude>-0.0701255737502271</longitude>
-				<latitude>44.39841725397574</latitude>
+				<longitude>-0.07653801706018148</longitude>
+				<latitude>44.40074804307081</latitude>
 				<altitude>0</altitude>
-				<heading>-0.1619145831083398</heading>
-				<tilt>12.94462346887855</tilt>
-				<range>8667.653191710071</range>
+				<heading>-1.768103989534277</heading>
+				<tilt>12.04523914548468</tilt>
+				<range>2263.464731366746</range>
 				<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
 			</LookAt>
 			<styleUrl>#m_ylw-pushpin</styleUrl>
 			<Point>
 				<gx:drawOrder>1</gx:drawOrder>
-				<coordinates>-0.07805483647279399,44.39898831885815,0</coordinates>
+				<coordinates>-0.078499,44.402653,0</coordinates>
 			</Point>
 		</Placemark>
 		<Placemark>
 			<name>🔥 Roaillan (33) - 29/03/2026 (17h30)</name>
-			<description>Nature de l&apos;évènement : Feu de forêt
+			<description>Nature de l&apos;évènement : Feu de broussailles
 Phase de lutte : en cours
 .
-Situation : xxx hectares
-Moyens : 👨‍= xx  /  🚒= xx  /  ✈ABE= xx  /  🚁 HBE= xx</description>
+#incendie #FeuxDeForêt
+.
+➡️ ➡️ Suivi complet :: https://discord.gg/jB8Bzpbx7V
+➡️ ➡️ Suivi complet :: https://pirenfrance.wixsite.com/website
+
+--
+18:00 - Situation : 0.5 hectare
+.
+Moyens : 👨‍= xx / 🚒= 8 / ✈ABE= xx / 🚁 HBE= xx</description>
 			<LookAt>
 				<longitude>-0.3000458131803462</longitude>
 				<latitude>44.48535150604127</latitude>
