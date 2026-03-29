@@ -38,6 +38,28 @@
 		<name>🔥. Phase de lutte : en cours</name>
 		<open>1</open>
 		<Placemark>
+			<name>🔥 Marions (33) - 29/03/2026 (18h30)</name>
+			<description>Nature de l&apos;évènement : Feu de forêt
+Phase de lutte : en cours
+.
+Situation : xxx hectares
+Moyens : 👨‍= xx  /  🚒= xx  /  ✈ABE= xx  /  🚁 HBE= xx</description>
+			<LookAt>
+				<longitude>-0.0701255737502271</longitude>
+				<latitude>44.39841725397574</latitude>
+				<altitude>0</altitude>
+				<heading>-0.1619145831083398</heading>
+				<tilt>12.94462346887855</tilt>
+				<range>8667.653191710071</range>
+				<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+			</LookAt>
+			<styleUrl>#m_ylw-pushpin</styleUrl>
+			<Point>
+				<gx:drawOrder>1</gx:drawOrder>
+				<coordinates>-0.07805483647279399,44.39898831885815,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
 			<name>🔥 Roaillan (33) - 29/03/2026 (17h30)</name>
 			<description>Nature de l&apos;évènement : Feu de forêt
 Phase de lutte : en cours
