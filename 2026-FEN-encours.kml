@@ -1,73 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <kml xmlns="http://www.opengis.net/kml/2.2" xmlns:gx="http://www.google.com/kml/ext/2.2" xmlns:kml="http://www.opengis.net/kml/2.2" xmlns:atom="http://www.w3.org/2005/Atom">
-<Document>
-	<name>2026-FEN-encours.kml</name>
-	<StyleMap id="msn_firedept">
-		<Pair>
-			<key>normal</key>
-			<styleUrl>#sn_firedept</styleUrl>
-		</Pair>
-		<Pair>
-			<key>highlight</key>
-			<styleUrl>#sh_firedept</styleUrl>
-		</Pair>
-	</StyleMap>
-	<Style id="sh_firedept">
-		<IconStyle>
-			<scale>1.18182</scale>
-			<Icon>
-				<href>http://maps.google.com/mapfiles/kml/shapes/firedept.png</href>
-			</Icon>
-			<hotSpot x="0.5" y="0" xunits="fraction" yunits="fraction"/>
-		</IconStyle>
-		<LabelStyle>
-			<color>ff00aaff</color>
-			<scale>0.8</scale>
-		</LabelStyle>
-		<BalloonStyle>
-		</BalloonStyle>
-	</Style>
-	<Style id="sn_firedept">
-		<IconStyle>
-			<Icon>
-				<href>http://maps.google.com/mapfiles/kml/shapes/firedept.png</href>
-			</Icon>
-			<hotSpot x="0.5" y="0" xunits="fraction" yunits="fraction"/>
-		</IconStyle>
-		<LabelStyle>
-			<color>ff00aaff</color>
-			<scale>0.8</scale>
-		</LabelStyle>
-		<BalloonStyle>
-		</BalloonStyle>
-	</Style>
-	<Folder>
-		<name>🔥. Phase de lutte : en cours</name>
-		<open>1</open>
-		<Placemark>
-			<name>Reignac (33)</name>
-			<open>1</open>
-			<description>Nature de l&apos;évènement : Feu de forêt
-Phase de lutte : en cours
-.
-Situation : xxx hectares
-Moyens : 👨‍= xx  /  🚒= xx  /  ✈ABE= xx  /  🚁 HBE= xx</description>
-			<LookAt>
-				<longitude>-0.5463683815754539</longitude>
-				<latitude>45.22757861418464</latitude>
-				<altitude>0</altitude>
-				<heading>-0.7299657235174365</heading>
-				<tilt>12.02934091279584</tilt>
-				<range>8264.835523012769</range>
-				<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
-			</LookAt>
-			<styleUrl>#msn_firedept</styleUrl>
-			<Point>
-				<gx:drawOrder>1</gx:drawOrder>
-				<coordinates>-0.5604767497076035,45.2366494743674,0</coordinates>
-			</Point>
-		</Placemark>
-		<atom:link rel="app" href="https://www.google.com/earth/about/versions/#earth-pro" title="Google Earth Pro 7.3.7.1094"></atom:link>
-	</Folder>
-</Document>
+<Folder>
+	<name>🔥. Phase de lutte : en cours</name>
+	<open>1</open>
+	<atom:link rel="app" href="https://www.google.com/earth/about/versions/#earth-pro" title="Google Earth Pro 7.3.7.1094"></atom:link>
+</Folder>
 </kml>
