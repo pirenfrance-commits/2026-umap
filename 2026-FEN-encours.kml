@@ -14,28 +14,20 @@
 	</StyleMap>
 	<Style id="sh_firedept">
 		<IconStyle>
-			<scale>1.16667</scale>
+			<scale>1.18182</scale>
 			<Icon>
 				<href>http://maps.google.com/mapfiles/kml/shapes/firedept.png</href>
 			</Icon>
 			<hotSpot x="0.5" y="0" xunits="fraction" yunits="fraction"/>
 		</IconStyle>
 		<LabelStyle>
-			<color>ff00ffaa</color>
+			<color>ff00aaff</color>
 			<scale>0.7</scale>
 		</LabelStyle>
 		<BalloonStyle>
 		</BalloonStyle>
 		<ListStyle>
 		</ListStyle>
-		<LineStyle>
-			<color>ff0055ff</color>
-			<width>2</width>
-		</LineStyle>
-		<PolyStyle>
-			<color>ff0055ff</color>
-			<fill>0</fill>
-		</PolyStyle>
 	</Style>
 	<Style id="sn_firedept">
 		<IconStyle>
@@ -45,47 +37,38 @@
 			<hotSpot x="0.5" y="0" xunits="fraction" yunits="fraction"/>
 		</IconStyle>
 		<LabelStyle>
-			<color>ff00ffaa</color>
+			<color>ff00aaff</color>
 			<scale>0.7</scale>
 		</LabelStyle>
 		<BalloonStyle>
 		</BalloonStyle>
 		<ListStyle>
 		</ListStyle>
-		<LineStyle>
-			<color>ff0055ff</color>
-			<width>2</width>
-		</LineStyle>
-		<PolyStyle>
-			<color>ff0055ff</color>
-			<fill>0</fill>
-		</PolyStyle>
 	</Style>
 	<Folder>
 		<name>🔥. Phase de lutte : en cours</name>
 		<open>1</open>
 		<Placemark>
-			<name>Saint Jean d&apos;Illac (33) - 15/04/2026 (16:00)
-</name>
-			<description>Nature de l&apos;évènement : Feu de broussailles
+			<name>Saint-Junien-la-Bregère (23) - 16/04/2026</name>
+			<description>Nature de l&apos;évènement : Feu de forêt
 .
 #incendie #FeuxDeForêt
 .
 ➡️ ➡️ Suivi complet :: https://discord.gg/jB8Bzpbx7V
 ➡️ ➡️ Suivi complet :: https://pirenfrance.wixsite.com/website</description>
 			<LookAt>
-				<longitude>-0.8203879717806785</longitude>
-				<latitude>44.80405672661984</latitude>
+				<longitude>1.71898599992595</longitude>
+				<latitude>45.89250586066992</latitude>
 				<altitude>0</altitude>
-				<heading>154.5145499104031</heading>
-				<tilt>45.30259323439692</tilt>
-				<range>410.5175477786422</range>
+				<heading>0.007858226516304462</heading>
+				<tilt>4.339359480130355</tilt>
+				<range>3049.448968382924</range>
 				<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
 			</LookAt>
 			<styleUrl>#msn_firedept</styleUrl>
 			<Point>
 				<gx:drawOrder>1</gx:drawOrder>
-				<coordinates>-0.8207218397245097,44.80406137640821,0</coordinates>
+				<coordinates>1.714001149354929,45.89350534676292,0</coordinates>
 			</Point>
 		</Placemark>
 		<atom:link rel="app" href="https://www.google.com/earth/about/versions/#earth-pro" title="Google Earth Pro 7.3.7.1155"></atom:link>
