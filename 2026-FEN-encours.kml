@@ -34,9 +34,12 @@
 		<ListStyle>
 		</ListStyle>
 	</Style>
-	<Placemark>
-		<name>Cestas (33) - 23.04.2026 (13H30)</name>
-		<description>Evènement : Feu de forêt
+	<Folder>
+		<name>🔥. Phase de lutte : en cours</name>
+		<open>1</open>
+		<Placemark>
+			<name>Cestas (33) - 23.04.2026 (13H30)</name>
+			<description>Evènement : Feu de forêt
 
  .
 
@@ -47,21 +50,22 @@
 ➡️ ➡️ Suivi complet :: https://discord.gg/jB8Bzpbx7V 
 
 ➡️ ➡️ Suivi complet :: https://pirenfrance.wixsite.com/website</description>
-		<LookAt>
-			<longitude>-0.7396166574936736</longitude>
-			<latitude>44.7368102459446</latitude>
-			<altitude>0</altitude>
-			<heading>-2.235233518700068</heading>
-			<tilt>7.863404841915581</tilt>
-			<range>7484.989225633543</range>
-			<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
-		</LookAt>
-		<styleUrl>#m_ylw-pushpin</styleUrl>
-		<Point>
-			<gx:drawOrder>1</gx:drawOrder>
-			<coordinates>-0.7623570393631507,44.73678733070093,0</coordinates>
-		</Point>
+			<LookAt>
+				<longitude>-0.7894409374345478</longitude>
+				<latitude>44.71760647247208</latitude>
+				<altitude>0</altitude>
+				<heading>-2.271426367432305</heading>
+				<tilt>15.81634516093383</tilt>
+				<range>4416.664959891198</range>
+				<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+			</LookAt>
+			<styleUrl>#m_ylw-pushpin</styleUrl>
+			<Point>
+				<gx:drawOrder>1</gx:drawOrder>
+				<coordinates>-0.7991121363994647,44.72132468657567,0</coordinates>
+			</Point>
+		</Placemark>
 		<atom:link rel="app" href="https://www.google.com/earth/about/versions/#earth-pro" title="Google Earth Pro 7.3.7.1155"></atom:link>
-	</Placemark>
+	</Folder>
 </Document>
 </kml>
