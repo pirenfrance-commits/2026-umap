@@ -2,76 +2,66 @@
 <kml xmlns="http://www.opengis.net/kml/2.2" xmlns:gx="http://www.google.com/kml/ext/2.2" xmlns:kml="http://www.opengis.net/kml/2.2" xmlns:atom="http://www.w3.org/2005/Atom">
 <Document>
 	<name>2026-FEN-encours.kml</name>
-	<StyleMap id="msn_firedept">
+	<StyleMap id="m_ylw-pushpin">
 		<Pair>
 			<key>normal</key>
-			<styleUrl>#sn_firedept</styleUrl>
+			<styleUrl>#s_ylw-pushpin</styleUrl>
 		</Pair>
 		<Pair>
 			<key>highlight</key>
-			<styleUrl>#sh_firedept</styleUrl>
+			<styleUrl>#s_ylw-pushpin_hl</styleUrl>
 		</Pair>
 	</StyleMap>
-	<Style id="sh_firedept">
+	<Style id="s_ylw-pushpin">
 		<IconStyle>
-			<scale>1.18182</scale>
+			<scale>1.2</scale>
 			<Icon>
 				<href>http://maps.google.com/mapfiles/kml/shapes/firedept.png</href>
 			</Icon>
 			<hotSpot x="0.5" y="0" xunits="fraction" yunits="fraction"/>
 		</IconStyle>
-		<LabelStyle>
-			<color>ff00aaff</color>
-			<scale>0.7</scale>
-		</LabelStyle>
-		<BalloonStyle>
-		</BalloonStyle>
 		<ListStyle>
 		</ListStyle>
 	</Style>
-	<Style id="sn_firedept">
+	<Style id="s_ylw-pushpin_hl">
 		<IconStyle>
+			<scale>1.4</scale>
 			<Icon>
 				<href>http://maps.google.com/mapfiles/kml/shapes/firedept.png</href>
 			</Icon>
 			<hotSpot x="0.5" y="0" xunits="fraction" yunits="fraction"/>
 		</IconStyle>
-		<LabelStyle>
-			<color>ff00aaff</color>
-			<scale>0.7</scale>
-		</LabelStyle>
-		<BalloonStyle>
-		</BalloonStyle>
 		<ListStyle>
 		</ListStyle>
 	</Style>
-	<Folder>
-		<name>🔥. Phase de lutte : en cours</name>
-		<open>1</open>
-		<Placemark>
-			<name>Saint-Junien-la-Bregère (23) - 16/04/2026</name>
-			<description>Nature de l&apos;évènement : Feu de forêt
+	<Placemark>
+		<name>Cestas (33) - 23.04.2026 (13H30)</name>
+		<description>Evènement : Feu de forêt
+
+ .
+
+ #incendie #FeuxDeForêt . 
+
 .
-#incendie #FeuxDeForêt
-.
-➡️ ➡️ Suivi complet :: https://discord.gg/jB8Bzpbx7V
+
+➡️ ➡️ Suivi complet :: https://discord.gg/jB8Bzpbx7V 
+
 ➡️ ➡️ Suivi complet :: https://pirenfrance.wixsite.com/website</description>
-			<LookAt>
-				<longitude>1.71898599992595</longitude>
-				<latitude>45.89250586066992</latitude>
-				<altitude>0</altitude>
-				<heading>0.007858226516304462</heading>
-				<tilt>4.339359480130355</tilt>
-				<range>3049.448968382924</range>
-				<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
-			</LookAt>
-			<styleUrl>#msn_firedept</styleUrl>
-			<Point>
-				<gx:drawOrder>1</gx:drawOrder>
-				<coordinates>1.714001149354929,45.89350534676292,0</coordinates>
-			</Point>
-		</Placemark>
+		<LookAt>
+			<longitude>-0.7396166574936736</longitude>
+			<latitude>44.7368102459446</latitude>
+			<altitude>0</altitude>
+			<heading>-2.235233518700068</heading>
+			<tilt>7.863404841915581</tilt>
+			<range>7484.989225633543</range>
+			<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+		</LookAt>
+		<styleUrl>#m_ylw-pushpin</styleUrl>
+		<Point>
+			<gx:drawOrder>1</gx:drawOrder>
+			<coordinates>-0.7623570393631507,44.73678733070093,0</coordinates>
+		</Point>
 		<atom:link rel="app" href="https://www.google.com/earth/about/versions/#earth-pro" title="Google Earth Pro 7.3.7.1155"></atom:link>
-	</Folder>
+	</Placemark>
 </Document>
 </kml>
