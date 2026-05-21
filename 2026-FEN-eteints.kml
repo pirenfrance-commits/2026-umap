@@ -12,14 +12,14 @@
 			<styleUrl>#s_ylw-pushpin_hl0</styleUrl>
 		</Pair>
 	</StyleMap>
-	<StyleMap id="msn_firedept">
+	<StyleMap id="m_ylw-pushpin0">
 		<Pair>
 			<key>normal</key>
-			<styleUrl>#sn_firedept</styleUrl>
+			<styleUrl>#s_ylw-pushpin</styleUrl>
 		</Pair>
 		<Pair>
 			<key>highlight</key>
-			<styleUrl>#sh_firedept</styleUrl>
+			<styleUrl>#s_ylw-pushpin_hl</styleUrl>
 		</Pair>
 	</StyleMap>
 	<StyleMap id="msn_grn-blank">
@@ -32,27 +32,7 @@
 			<styleUrl>#sh_grn-blank</styleUrl>
 		</Pair>
 	</StyleMap>
-	<StyleMap id="msn_grn-blank1">
-		<Pair>
-			<key>normal</key>
-			<styleUrl>#sn_grn-blank1</styleUrl>
-		</Pair>
-		<Pair>
-			<key>highlight</key>
-			<styleUrl>#sh_grn-blank0</styleUrl>
-		</Pair>
-	</StyleMap>
-	<StyleMap id="msn_grn-blank2">
-		<Pair>
-			<key>normal</key>
-			<styleUrl>#sn_grn-blank0</styleUrl>
-		</Pair>
-		<Pair>
-			<key>highlight</key>
-			<styleUrl>#sh_grn-blank1</styleUrl>
-		</Pair>
-	</StyleMap>
-	<Style id="s_ylw-pushpin1">
+	<Style id="s_ylw-pushpin">
 		<IconStyle>
 			<scale>1.1</scale>
 			<Icon>
@@ -66,7 +46,25 @@
 			</ItemIcon>
 		</ListStyle>
 	</Style>
-	<Style id="s_ylw-pushpin_hl0">
+	<Style id="s_ylw-pushpin1">
+		<IconStyle>
+			<scale>0.7</scale>
+			<Icon>
+				<href>http://maps.google.com/mapfiles/kml/paddle/grn-blank.png</href>
+			</Icon>
+			<hotSpot x="32" y="1" xunits="pixels" yunits="pixels"/>
+		</IconStyle>
+		<LabelStyle>
+			<color>ff00ffaa</color>
+			<scale>0.7</scale>
+		</LabelStyle>
+		<ListStyle>
+			<ItemIcon>
+				<href>http://maps.google.com/mapfiles/kml/paddle/grn-blank-lv.png</href>
+			</ItemIcon>
+		</ListStyle>
+	</Style>
+	<Style id="s_ylw-pushpin_hl">
 		<IconStyle>
 			<scale>1.3</scale>
 			<Icon>
@@ -80,16 +78,16 @@
 			</ItemIcon>
 		</ListStyle>
 	</Style>
-	<Style id="sh_firedept">
+	<Style id="s_ylw-pushpin_hl0">
 		<IconStyle>
-			<scale>1.18182</scale>
+			<scale>0.827273</scale>
 			<Icon>
 				<href>http://maps.google.com/mapfiles/kml/paddle/grn-blank.png</href>
 			</Icon>
 			<hotSpot x="32" y="1" xunits="pixels" yunits="pixels"/>
 		</IconStyle>
 		<LabelStyle>
-			<color>ff00aaff</color>
+			<color>ff00ffaa</color>
 			<scale>0.7</scale>
 		</LabelStyle>
 		<ListStyle>
@@ -100,7 +98,7 @@
 	</Style>
 	<Style id="sh_grn-blank">
 		<IconStyle>
-			<scale>1.18182</scale>
+			<scale>0.827273</scale>
 			<Icon>
 				<href>http://maps.google.com/mapfiles/kml/paddle/grn-blank.png</href>
 			</Icon>
@@ -108,67 +106,6 @@
 		</IconStyle>
 		<LabelStyle>
 			<color>ff00ffaa</color>
-			<scale>0.7</scale>
-		</LabelStyle>
-		<ListStyle>
-			<ItemIcon>
-				<href>http://maps.google.com/mapfiles/kml/paddle/grn-blank-lv.png</href>
-			</ItemIcon>
-		</ListStyle>
-	</Style>
-	<Style id="sh_grn-blank0">
-		<IconStyle>
-			<scale>1.18182</scale>
-			<Icon>
-				<href>http://maps.google.com/mapfiles/kml/paddle/grn-blank.png</href>
-			</Icon>
-			<hotSpot x="32" y="1" xunits="pixels" yunits="pixels"/>
-		</IconStyle>
-		<LabelStyle>
-			<color>ff00ff00</color>
-			<scale>0.7</scale>
-		</LabelStyle>
-		<ListStyle>
-			<ItemIcon>
-				<href>http://maps.google.com/mapfiles/kml/paddle/grn-blank-lv.png</href>
-			</ItemIcon>
-		</ListStyle>
-	</Style>
-	<Style id="sh_grn-blank1">
-		<IconStyle>
-			<scale>1.16667</scale>
-			<Icon>
-				<href>http://maps.google.com/mapfiles/kml/paddle/grn-blank.png</href>
-			</Icon>
-			<hotSpot x="32" y="1" xunits="pixels" yunits="pixels"/>
-		</IconStyle>
-		<LabelStyle>
-			<color>ff00ffaa</color>
-			<scale>0.7</scale>
-		</LabelStyle>
-		<ListStyle>
-			<ItemIcon>
-				<href>http://maps.google.com/mapfiles/kml/paddle/grn-blank-lv.png</href>
-			</ItemIcon>
-		</ListStyle>
-		<LineStyle>
-			<color>ff0055ff</color>
-			<width>2</width>
-		</LineStyle>
-		<PolyStyle>
-			<color>ff0055ff</color>
-			<fill>0</fill>
-		</PolyStyle>
-	</Style>
-	<Style id="sn_firedept">
-		<IconStyle>
-			<Icon>
-				<href>http://maps.google.com/mapfiles/kml/paddle/grn-blank.png</href>
-			</Icon>
-			<hotSpot x="32" y="1" xunits="pixels" yunits="pixels"/>
-		</IconStyle>
-		<LabelStyle>
-			<color>ff00aaff</color>
 			<scale>0.7</scale>
 		</LabelStyle>
 		<ListStyle>
@@ -179,6 +116,7 @@
 	</Style>
 	<Style id="sn_grn-blank">
 		<IconStyle>
+			<scale>0.7</scale>
 			<Icon>
 				<href>http://maps.google.com/mapfiles/kml/paddle/grn-blank.png</href>
 			</Icon>
@@ -186,48 +124,6 @@
 		</IconStyle>
 		<LabelStyle>
 			<color>ff00ffaa</color>
-			<scale>0.7</scale>
-		</LabelStyle>
-		<ListStyle>
-			<ItemIcon>
-				<href>http://maps.google.com/mapfiles/kml/paddle/grn-blank-lv.png</href>
-			</ItemIcon>
-		</ListStyle>
-	</Style>
-	<Style id="sn_grn-blank0">
-		<IconStyle>
-			<Icon>
-				<href>http://maps.google.com/mapfiles/kml/paddle/grn-blank.png</href>
-			</Icon>
-			<hotSpot x="32" y="1" xunits="pixels" yunits="pixels"/>
-		</IconStyle>
-		<LabelStyle>
-			<color>ff00ffaa</color>
-			<scale>0.7</scale>
-		</LabelStyle>
-		<ListStyle>
-			<ItemIcon>
-				<href>http://maps.google.com/mapfiles/kml/paddle/grn-blank-lv.png</href>
-			</ItemIcon>
-		</ListStyle>
-		<LineStyle>
-			<color>ff0055ff</color>
-			<width>2</width>
-		</LineStyle>
-		<PolyStyle>
-			<color>ff0055ff</color>
-			<fill>0</fill>
-		</PolyStyle>
-	</Style>
-	<Style id="sn_grn-blank1">
-		<IconStyle>
-			<Icon>
-				<href>http://maps.google.com/mapfiles/kml/paddle/grn-blank.png</href>
-			</Icon>
-			<hotSpot x="32" y="1" xunits="pixels" yunits="pixels"/>
-		</IconStyle>
-		<LabelStyle>
-			<color>ff00ff00</color>
 			<scale>0.7</scale>
 		</LabelStyle>
 		<ListStyle>
@@ -239,6 +135,36 @@
 	<Folder>
 		<name>🟢. Phase de lutte : éteint</name>
 		<open>1</open>
+		<Placemark>
+			<name>Pindères (47) - 21.05.2026 (17H00)</name>
+			<description>🔥 Pindères (47) - 21.05.2026 (17H00)
+Evènement : Feu de forêt
+.
+#incendie #FeuxDeForêt
+.
+➡️ ➡️ Suivi complet :: https://discord.gg/jB8Bzpbx7V
+➡️ ➡️ Suivi complet :: https://pirenfrance.wixsite.com/website
+--
+ℹ️﻿  Situation à : 18H45
+Phase de lutte : 🟢 Eteint
+Surface : 0,15 hectares
+Moyens : 👨‍🚒=  / 🚒= 6 / ✈ABE=  / 🚁 HBE= 
+</description>
+			<LookAt>
+				<longitude>0.0008381656859968167</longitude>
+				<latitude>44.2524829525715</latitude>
+				<altitude>0</altitude>
+				<heading>-7.158641389856451e-05</heading>
+				<tilt>21.52512601170559</tilt>
+				<range>1453.333870945385</range>
+				<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+			</LookAt>
+			<styleUrl>#m_ylw-pushpin0</styleUrl>
+			<Point>
+				<gx:drawOrder>1</gx:drawOrder>
+				<coordinates>0.001319952262790469,44.25339655463365,0</coordinates>
+			</Point>
+		</Placemark>
 		<Placemark>
 			<name>Messanges (40) - 23.04.2026 (18H30)</name>
 			<description>Evènement : Feu de forêt
@@ -292,7 +218,6 @@
 		</Placemark>
 		<Placemark>
 			<name>Saint-Junien-la-Bregère (23) - 16/04/2026</name>
-			<visibility>0</visibility>
 			<description>Nature de l&apos;évènement : Feu de forêt
 .
 #incendie #FeuxDeForêt
@@ -308,7 +233,7 @@
 				<range>3049.448968382924</range>
 				<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
 			</LookAt>
-			<styleUrl>#msn_firedept</styleUrl>
+			<styleUrl>#m_ylw-pushpin</styleUrl>
 			<Point>
 				<gx:drawOrder>1</gx:drawOrder>
 				<coordinates>1.714001149354929,45.89350534676292,0</coordinates>
@@ -316,7 +241,6 @@
 		</Placemark>
 		<Placemark>
 			<name>Saint Jean d&apos;Illac (33) - 15/04/2026 (16:00)</name>
-			<visibility>0</visibility>
 			<description>Nature de l&apos;évènement : Feu de broussailles
 .
 #incendie #FeuxDeForêt
@@ -332,7 +256,7 @@
 				<range>410.5175477786422</range>
 				<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
 			</LookAt>
-			<styleUrl>#msn_grn-blank2</styleUrl>
+			<styleUrl>#m_ylw-pushpin</styleUrl>
 			<Point>
 				<gx:drawOrder>1</gx:drawOrder>
 				<coordinates>-0.8207218397245097,44.80406137640821,0</coordinates>
@@ -340,7 +264,6 @@
 		</Placemark>
 		<Placemark>
 			<name>SAINT MARTIN CHATEAU (23)</name>
-			<visibility>0</visibility>
 			<description>Nature de l&apos;évènement : Feu de broussailles
 Phase de lutte : en cours
 .
@@ -356,7 +279,7 @@ Phase de lutte : en cours
 				<range>12022.69563219564</range>
 				<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
 			</LookAt>
-			<styleUrl>#msn_grn-blank</styleUrl>
+			<styleUrl>#m_ylw-pushpin</styleUrl>
 			<Point>
 				<gx:drawOrder>1</gx:drawOrder>
 				<coordinates>1.799423423312407,45.85735153760878,0</coordinates>
@@ -364,7 +287,6 @@ Phase de lutte : en cours
 		</Placemark>
 		<Placemark>
 			<name>POMPEJAC (33) - 09/04/2026 (20:30)</name>
-			<visibility>0</visibility>
 			<open>1</open>
 			<description>Nature de l&apos;évènement : Feu de broussailles
 .
@@ -381,7 +303,7 @@ Situation : 2000m²
 				<range>800.1998473772182</range>
 				<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
 			</LookAt>
-			<styleUrl>#msn_grn-blank1</styleUrl>
+			<styleUrl>#m_ylw-pushpin</styleUrl>
 			<Point>
 				<gx:drawOrder>1</gx:drawOrder>
 				<coordinates>-0.2918042316667102,44.40529204593555,0</coordinates>
@@ -389,7 +311,6 @@ Situation : 2000m²
 		</Placemark>
 		<Placemark>
 			<name>Le Pian Médoc (33) - 09/04/2026 (16:00)</name>
-			<visibility>0</visibility>
 			<description>Nature de l&apos;évènement : Feu de forêt
 .
 #incendie #FeuxDeForêt
@@ -405,7 +326,7 @@ Situation : 2000m²
 				<range>1368.339105350969</range>
 				<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
 			</LookAt>
-			<styleUrl>#msn_grn-blank1</styleUrl>
+			<styleUrl>#m_ylw-pushpin</styleUrl>
 			<Point>
 				<gx:drawOrder>1</gx:drawOrder>
 				<coordinates>-0.6546700429405194,44.94963740630586,0</coordinates>
@@ -413,7 +334,6 @@ Situation : 2000m²
 		</Placemark>
 		<Placemark>
 			<name>Reignac (33) - 08/04/2026 (17h00)</name>
-			<visibility>0</visibility>
 			<description>Nature de l&apos;évènement : Feu de forêt
 .
 Situation : 1 hectare
@@ -427,15 +347,14 @@ Moyens : 👨‍= xx  /  🚒= xx  /  ✈ABE= xx  /  🚁 HBE= xx</description>
 				<range>8264.835523012769</range>
 				<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
 			</LookAt>
-			<styleUrl>#msn_grn-blank1</styleUrl>
+			<styleUrl>#m_ylw-pushpin</styleUrl>
 			<Point>
 				<gx:drawOrder>1</gx:drawOrder>
 				<coordinates>-0.5604767497076035,45.2366494743674,0</coordinates>
 			</Point>
 		</Placemark>
 		<Placemark>
-			<name>🔥 Marions (33) - 29/03/2026 (18h30)</name>
-			<visibility>0</visibility>
+			<name>Marions (33) - 29/03/2026 (18h30)</name>
 			<description>Nature de l&apos;évènement : Feu de forêt
 Phase de lutte : en cours
 .
@@ -459,15 +378,14 @@ Moyens : 👨‍= xx / 🚒= 14 / ✈ABE= xx / 🚁 HBE= xx
 				<range>1405.505908443809</range>
 				<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
 			</LookAt>
-			<styleUrl>#msn_grn-blank1</styleUrl>
+			<styleUrl>#msn_grn-blank</styleUrl>
 			<Point>
 				<gx:drawOrder>1</gx:drawOrder>
 				<coordinates>-0.0748725877892098,44.40419242827449,0</coordinates>
 			</Point>
 		</Placemark>
 		<Placemark>
-			<name>🔥 POMPEJAC(33) - 04/04/2026 (18:00)</name>
-			<visibility>0</visibility>
+			<name>POMPEJAC(33) - 04/04/2026 (18:00)</name>
 			<description>Nature de l&apos;évènement : Feu de broussailles
 .
 ➡️ ➡️ Suivi complet :: https://discord.gg/jB8Bzpbx7V
@@ -481,15 +399,14 @@ Moyens : 👨‍= xx / 🚒= 14 / ✈ABE= xx / 🚁 HBE= xx
 				<range>800.1610069020712</range>
 				<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
 			</LookAt>
-			<styleUrl>#msn_grn-blank1</styleUrl>
+			<styleUrl>#msn_grn-blank</styleUrl>
 			<Point>
 				<gx:drawOrder>1</gx:drawOrder>
 				<coordinates>-0.2911384475172085,44.40495917929093,0</coordinates>
 			</Point>
 		</Placemark>
 		<Placemark>
-			<name>🔥 Roaillan (33) - 29/03/2026 (17h30)</name>
-			<visibility>0</visibility>
+			<name>Roaillan (33) - 29/03/2026 (17h30)</name>
 			<description>Nature de l&apos;évènement : Feu de broussailles
 Phase de lutte : en cours
 .
@@ -513,7 +430,7 @@ Moyens : 👨‍= xx / 🚒= 8 / ✈ABE= xx / 🚁 HBE= xx
 				<range>2104.819896174867</range>
 				<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
 			</LookAt>
-			<styleUrl>#msn_grn-blank1</styleUrl>
+			<styleUrl>#msn_grn-blank</styleUrl>
 			<Point>
 				<gx:drawOrder>1</gx:drawOrder>
 				<coordinates>-0.3009938972580917,44.48857840143206,0</coordinates>
@@ -521,7 +438,6 @@ Moyens : 👨‍= xx / 🚒= 8 / ✈ABE= xx / 🚁 HBE= xx
 		</Placemark>
 		<Placemark>
 			<name>St-Martin-Curton (47)</name>
-			<visibility>0</visibility>
 			<description>Nature de l&apos;évènement : Feu de forêt
 Phase de lutte : en cours
 .
@@ -536,7 +452,7 @@ Moyens : 👨‍= xx  /  🚒= 2  /  ✈ABE= xx  /  🚁 HBE= xx / Drone= 01</de
 				<range>279.1012128734344</range>
 				<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
 			</LookAt>
-			<styleUrl>#msn_grn-blank1</styleUrl>
+			<styleUrl>#m_ylw-pushpin</styleUrl>
 			<Point>
 				<gx:drawOrder>1</gx:drawOrder>
 				<coordinates>-0.04160426639299164,44.34274025515654,0</coordinates>
@@ -544,7 +460,6 @@ Moyens : 👨‍= xx  /  🚒= 2  /  ✈ABE= xx  /  🚁 HBE= xx / Drone= 01</de
 		</Placemark>
 		<Placemark>
 			<name>Bénévent-l&apos;Abbaye (23)</name>
-			<visibility>0</visibility>
 			<description>Nature de l&apos;évènement : Feu de forêt
 Phase de lutte : en cours
 .
@@ -559,7 +474,7 @@ Moyens : 👨‍= xx  /  🚒= xx  /  ✈ABE= xx  /  🚁 HBE= xx</description>
 				<range>5767.866625293524</range>
 				<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
 			</LookAt>
-			<styleUrl>#msn_grn-blank1</styleUrl>
+			<styleUrl>#m_ylw-pushpin</styleUrl>
 			<Point>
 				<gx:drawOrder>1</gx:drawOrder>
 				<coordinates>1.626629954360976,46.11670353412708,0</coordinates>
