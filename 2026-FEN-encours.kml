@@ -2,17 +2,27 @@
 <kml xmlns="http://www.opengis.net/kml/2.2" xmlns:gx="http://www.google.com/kml/ext/2.2" xmlns:kml="http://www.opengis.net/kml/2.2" xmlns:atom="http://www.w3.org/2005/Atom">
 <Document>
 	<name>2026-FEN-encours.kml</name>
-	<StyleMap id="msn_firedept">
+	<StyleMap id="m_ylw-pushpin">
 		<Pair>
 			<key>normal</key>
-			<styleUrl>#sn_firedept</styleUrl>
+			<styleUrl>#s_ylw-pushpin</styleUrl>
 		</Pair>
 		<Pair>
 			<key>highlight</key>
-			<styleUrl>#sh_firedept</styleUrl>
+			<styleUrl>#s_ylw-pushpin_hl</styleUrl>
 		</Pair>
 	</StyleMap>
-	<Style id="sh_firedept">
+	<Style id="s_ylw-pushpin">
+		<IconStyle>
+			<Icon>
+				<href>http://maps.google.com/mapfiles/kml/shapes/firedept.png</href>
+			</Icon>
+			<hotSpot x="0.5" y="0" xunits="fraction" yunits="fraction"/>
+		</IconStyle>
+		<ListStyle>
+		</ListStyle>
+	</Style>
+	<Style id="s_ylw-pushpin_hl">
 		<IconStyle>
 			<scale>1.18182</scale>
 			<Icon>
@@ -20,49 +30,45 @@
 			</Icon>
 			<hotSpot x="0.5" y="0" xunits="fraction" yunits="fraction"/>
 		</IconStyle>
-		<BalloonStyle>
-		</BalloonStyle>
-		<ListStyle>
-		</ListStyle>
-	</Style>
-	<Style id="sn_firedept">
-		<IconStyle>
-			<Icon>
-				<href>http://maps.google.com/mapfiles/kml/shapes/firedept.png</href>
-			</Icon>
-			<hotSpot x="0.5" y="0" xunits="fraction" yunits="fraction"/>
-		</IconStyle>
-		<BalloonStyle>
-		</BalloonStyle>
 		<ListStyle>
 		</ListStyle>
 	</Style>
 	<Folder>
-		<name>🔥. Phase de lutte : en cours</name>
+		<name>En cours</name>
 		<open>1</open>
 		<Placemark>
-			<name> Saint-Gor (40) - 25.05.2026 (17H45)</name>
-			<description>🔥 Saint-Gor (40) - 25.05.2026 (17H45)
-Evènement : Feu de forêt
-.
-#incendie #FeuxDeForêt
-.
-➡️ ➡️ Suivi complet :: https://discord.gg/jB8Bzpbx7V
-➡️ ➡️ Suivi complet :: https://pirenfrance.wixsite.com/website
-</description>
+			<name>Capbreton (40) - 17.06.2026 (15H30)
+</name>
 			<LookAt>
-				<longitude>-0.2145862573399171</longitude>
-				<latitude>44.05861899601737</latitude>
+				<longitude>-1.389891668655528</longitude>
+				<latitude>43.64940966309953</latitude>
 				<altitude>0</altitude>
-				<heading>0.0001398822873140822</heading>
-				<tilt>26.05224833052303</tilt>
-				<range>665.9011252359214</range>
+				<heading>-2.669696829428959</heading>
+				<tilt>4.945621646086726</tilt>
+				<range>12714.39769936442</range>
 				<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
 			</LookAt>
-			<styleUrl>#msn_firedept</styleUrl>
+			<styleUrl>#m_ylw-pushpin</styleUrl>
 			<Point>
 				<gx:drawOrder>1</gx:drawOrder>
-				<coordinates>-0.214586254425988,44.0589849577402,0</coordinates>
+				<coordinates>-1.416889012946153,43.63479010359949,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>Luxey (40) - 17.06.2026 (15H30)</name>
+			<LookAt>
+				<longitude>-0.4818491698773485</longitude>
+				<latitude>44.17832005158195</latitude>
+				<altitude>0</altitude>
+				<heading>-2.022166357614549</heading>
+				<tilt>13.17320781046914</tilt>
+				<range>2405.408896078055</range>
+				<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+			</LookAt>
+			<styleUrl>#m_ylw-pushpin</styleUrl>
+			<Point>
+				<gx:drawOrder>1</gx:drawOrder>
+				<coordinates>-0.4904361905886712,44.17778347073862,0</coordinates>
 			</Point>
 		</Placemark>
 		<atom:link rel="app" href="https://www.google.com/earth/about/versions/#earth-pro" title="Google Earth Pro 7.3.7.1155"></atom:link>
