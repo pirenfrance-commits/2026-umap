@@ -14,40 +14,48 @@
 	</StyleMap>
 	<Style id="s_ylw-pushpin">
 		<IconStyle>
-			<scale>1.1</scale>
+			<scale>1.2</scale>
 			<Icon>
-				<href>http://maps.google.com/mapfiles/kml/pushpin/ylw-pushpin.png</href>
+				<href>http://maps.google.com/mapfiles/kml/shapes/firedept.png</href>
 			</Icon>
-			<hotSpot x="20" y="2" xunits="pixels" yunits="pixels"/>
+			<hotSpot x="0.5" y="0" xunits="fraction" yunits="fraction"/>
 		</IconStyle>
+		<ListStyle>
+		</ListStyle>
 	</Style>
 	<Style id="s_ylw-pushpin_hl">
 		<IconStyle>
-			<scale>1.3</scale>
+			<scale>1.4</scale>
 			<Icon>
-				<href>http://maps.google.com/mapfiles/kml/pushpin/ylw-pushpin.png</href>
+				<href>http://maps.google.com/mapfiles/kml/shapes/firedept.png</href>
 			</Icon>
-			<hotSpot x="20" y="2" xunits="pixels" yunits="pixels"/>
+			<hotSpot x="0.5" y="0" xunits="fraction" yunits="fraction"/>
 		</IconStyle>
+		<ListStyle>
+		</ListStyle>
 	</Style>
-	<Placemark>
-		<name>La Brède (33) -21.06.2026 (08H30)
+	<Folder>
+		<name>En cours</name>
+		<open>1</open>
+		<Placemark>
+			<name>Bousses (47) - 23.06.2026 (15H30)
 </name>
-		<LookAt>
-			<longitude>-0.5657686492634428</longitude>
-			<latitude>44.68758944129605</latitude>
-			<altitude>0</altitude>
-			<heading>-0.07213583219708541</heading>
-			<tilt>18.19132933555676</tilt>
-			<range>1287.93675936236</range>
-			<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
-		</LookAt>
-		<styleUrl>#m_ylw-pushpin</styleUrl>
-		<Point>
-			<gx:drawOrder>1</gx:drawOrder>
-			<coordinates>-0.5695837436879381,44.68798331523865,0</coordinates>
-		</Point>
+			<LookAt>
+				<longitude>0.1174884103573048</longitude>
+				<latitude>44.14230438963174</latitude>
+				<altitude>0</altitude>
+				<heading>-0.7081801021068276</heading>
+				<tilt>10.7367727540188</tilt>
+				<range>4727.490196150325</range>
+				<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+			</LookAt>
+			<styleUrl>#m_ylw-pushpin</styleUrl>
+			<Point>
+				<gx:drawOrder>1</gx:drawOrder>
+				<coordinates>0.1067782580019783,44.14452707082779,0</coordinates>
+			</Point>
+		</Placemark>
 		<atom:link rel="app" href="https://www.google.com/earth/about/versions/#earth-pro" title="Google Earth Pro 7.3.7.1155"></atom:link>
-	</Placemark>
+	</Folder>
 </Document>
 </kml>
