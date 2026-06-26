@@ -12,7 +12,7 @@
 			<styleUrl>#s_ylw-pushpin_hl</styleUrl>
 		</Pair>
 	</StyleMap>
-	<StyleMap id="m_ylw-pushpin0">
+	<StyleMap id="m_ylw-pushpin3">
 		<Pair>
 			<key>normal</key>
 			<styleUrl>#s_ylw-pushpin0</styleUrl>
@@ -72,28 +72,28 @@
 				<range>4727.490196150325</range>
 				<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
 			</LookAt>
-			<styleUrl>#m_ylw-pushpin0</styleUrl>
+			<styleUrl>#m_ylw-pushpin3</styleUrl>
 			<Point>
 				<gx:drawOrder>1</gx:drawOrder>
 				<coordinates>0.1067782580019783,44.14452707082779,0</coordinates>
 			</Point>
 		</Placemark>
 		<Placemark>
-			<name>Donnezac (33) - 25.06.2026 (13H15)
+			<name>Luglon (40) - 26.06.2026 (03H15)
 </name>
-			<Camera>
-				<longitude>-0.4371939185040996</longitude>
-				<latitude>45.24983434268138</latitude>
-				<altitude>2629.783323031487</altitude>
-				<heading>-1.082242397653043</heading>
-				<tilt>0.2491044866605044</tilt>
-				<roll>-0.8941158049824086</roll>
+			<LookAt>
+				<longitude>-0.7213862367341328</longitude>
+				<latitude>44.08350089970032</latitude>
+				<altitude>0</altitude>
+				<heading>-0.002566944261073461</heading>
+				<tilt>5.401080012801898</tilt>
+				<range>6172.564421747988</range>
 				<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
-			</Camera>
+			</LookAt>
 			<styleUrl>#m_ylw-pushpin</styleUrl>
 			<Point>
 				<gx:drawOrder>1</gx:drawOrder>
-				<coordinates>-0.4384919631878392,45.24768125568745,0</coordinates>
+				<coordinates>-0.7430480722002419,44.08505155580612,0</coordinates>
 			</Point>
 		</Placemark>
 		<atom:link rel="app" href="https://www.google.com/earth/about/versions/#earth-pro" title="Google Earth Pro 7.3.7.1155"></atom:link>

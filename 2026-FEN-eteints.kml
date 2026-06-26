@@ -5,14 +5,52 @@
 	<StyleMap id="m_ylw-pushpin">
 		<Pair>
 			<key>normal</key>
-			<styleUrl>#s_ylw-pushpin</styleUrl>
+			<styleUrl>#s_ylw-pushpin1</styleUrl>
+		</Pair>
+		<Pair>
+			<key>highlight</key>
+			<styleUrl>#s_ylw-pushpin_hl9</styleUrl>
+		</Pair>
+	</StyleMap>
+	<StyleMap id="m_ylw-pushpin0">
+		<Pair>
+			<key>normal</key>
+			<styleUrl>#s_ylw-pushpin16</styleUrl>
 		</Pair>
 		<Pair>
 			<key>highlight</key>
 			<styleUrl>#s_ylw-pushpin_hl1</styleUrl>
 		</Pair>
 	</StyleMap>
-	<Style id="s_ylw-pushpin">
+	<StyleMap id="m_ylw-pushpin1">
+		<Pair>
+			<key>normal</key>
+			<styleUrl>#s_ylw-pushpin0</styleUrl>
+		</Pair>
+		<Pair>
+			<key>highlight</key>
+			<styleUrl>#s_ylw-pushpin_hl</styleUrl>
+		</Pair>
+	</StyleMap>
+	<Style id="s_ylw-pushpin0">
+		<IconStyle>
+			<scale>1.1</scale>
+			<Icon>
+				<href>http://maps.google.com/mapfiles/kml/pushpin/ylw-pushpin.png</href>
+			</Icon>
+			<hotSpot x="20" y="2" xunits="pixels" yunits="pixels"/>
+		</IconStyle>
+	</Style>
+	<Style id="s_ylw-pushpin1">
+		<IconStyle>
+			<scale>1.1</scale>
+			<Icon>
+				<href>http://maps.google.com/mapfiles/kml/pushpin/ylw-pushpin.png</href>
+			</Icon>
+			<hotSpot x="20" y="2" xunits="pixels" yunits="pixels"/>
+		</IconStyle>
+	</Style>
+	<Style id="s_ylw-pushpin16">
 		<IconStyle>
 			<scale>1.1</scale>
 			<Icon>
@@ -25,6 +63,15 @@
 				<href>http://maps.google.com/mapfiles/kml/paddle/grn-blank-lv.png</href>
 			</ItemIcon>
 		</ListStyle>
+	</Style>
+	<Style id="s_ylw-pushpin_hl">
+		<IconStyle>
+			<scale>1.3</scale>
+			<Icon>
+				<href>http://maps.google.com/mapfiles/kml/pushpin/ylw-pushpin.png</href>
+			</Icon>
+			<hotSpot x="20" y="2" xunits="pixels" yunits="pixels"/>
+		</IconStyle>
 	</Style>
 	<Style id="s_ylw-pushpin_hl1">
 		<IconStyle>
@@ -40,6 +87,15 @@
 			</ItemIcon>
 		</ListStyle>
 	</Style>
+	<Style id="s_ylw-pushpin_hl9">
+		<IconStyle>
+			<scale>1.3</scale>
+			<Icon>
+				<href>http://maps.google.com/mapfiles/kml/pushpin/ylw-pushpin.png</href>
+			</Icon>
+			<hotSpot x="20" y="2" xunits="pixels" yunits="pixels"/>
+		</IconStyle>
+	</Style>
 	<Folder>
 		<name>🟢. Phase de lutte : éteint</name>
 		<open>1</open>
@@ -51,7 +107,43 @@
 			</ListStyle>
 		</Style>
 		<Placemark>
+			<name>Donnezac (33) - 25.06.2026 (13H15)</name>
+			<Camera>
+				<longitude>-0.4371939185040996</longitude>
+				<latitude>45.24983434268138</latitude>
+				<altitude>2629.783323031487</altitude>
+				<heading>-1.082242397653043</heading>
+				<tilt>0.2491044866605044</tilt>
+				<roll>-0.8941158049824086</roll>
+				<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+			</Camera>
+			<styleUrl>#m_ylw-pushpin</styleUrl>
+			<Point>
+				<gx:drawOrder>1</gx:drawOrder>
+				<coordinates>-0.4384919631878392,45.24768125568745,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>La Brède (33) -21.06.2026 (08H30)</name>
+			<visibility>0</visibility>
+			<LookAt>
+				<longitude>-0.5657686492634428</longitude>
+				<latitude>44.68758944129605</latitude>
+				<altitude>0</altitude>
+				<heading>-0.07213583219708541</heading>
+				<tilt>18.19132933555676</tilt>
+				<range>1287.93675936236</range>
+				<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+			</LookAt>
+			<styleUrl>#m_ylw-pushpin1</styleUrl>
+			<Point>
+				<gx:drawOrder>1</gx:drawOrder>
+				<coordinates>-0.5695837436879381,44.68798331523865,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
 			<name>Capbreton (40) - 17.06.2026 (15H30)</name>
+			<visibility>0</visibility>
 			<LookAt>
 				<longitude>-1.389891668655528</longitude>
 				<latitude>43.64940966309953</latitude>
@@ -61,7 +153,7 @@
 				<range>12714.39769936442</range>
 				<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
 			</LookAt>
-			<styleUrl>#m_ylw-pushpin</styleUrl>
+			<styleUrl>#m_ylw-pushpin0</styleUrl>
 			<Point>
 				<gx:drawOrder>1</gx:drawOrder>
 				<coordinates>-1.416889012946153,43.63479010359949,0</coordinates>
@@ -69,6 +161,7 @@
 		</Placemark>
 		<Placemark>
 			<name>Luxey (40) - 17.06.2026 (15H30)</name>
+			<visibility>0</visibility>
 			<LookAt>
 				<longitude>-0.4818491698773485</longitude>
 				<latitude>44.17832005158195</latitude>
@@ -78,7 +171,7 @@
 				<range>2405.408896078055</range>
 				<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
 			</LookAt>
-			<styleUrl>#m_ylw-pushpin</styleUrl>
+			<styleUrl>#m_ylw-pushpin0</styleUrl>
 			<Point>
 				<gx:drawOrder>1</gx:drawOrder>
 				<coordinates>-0.4904361905886712,44.17778347073862,0</coordinates>
@@ -108,7 +201,7 @@ Moyens : 👨‍🚒=  / 🚒= 6 / ✈ABE=  / 🚁 HBE=</description>
 				<range>1453.333870945385</range>
 				<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
 			</LookAt>
-			<styleUrl>#m_ylw-pushpin</styleUrl>
+			<styleUrl>#m_ylw-pushpin0</styleUrl>
 			<Point>
 				<gx:drawOrder>1</gx:drawOrder>
 				<coordinates>0.001319952262790469,44.25339655463365,0</coordinates>
@@ -133,7 +226,7 @@ Evènement : Feu de forêt
 				<range>665.9011252359214</range>
 				<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
 			</LookAt>
-			<styleUrl>#m_ylw-pushpin</styleUrl>
+			<styleUrl>#m_ylw-pushpin0</styleUrl>
 			<Point>
 				<gx:drawOrder>1</gx:drawOrder>
 				<coordinates>-0.214586254425988,44.0589849577402,0</coordinates>
@@ -157,7 +250,7 @@ Evènement : Feu de forêt
 				<range>6932.823929271697</range>
 				<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
 			</LookAt>
-			<styleUrl>#m_ylw-pushpin</styleUrl>
+			<styleUrl>#m_ylw-pushpin0</styleUrl>
 			<Point>
 				<gx:drawOrder>1</gx:drawOrder>
 				<coordinates>-1.337649363841854,43.82600988813638,0</coordinates>
@@ -186,7 +279,7 @@ Evènement : Feu de forêt
 				<range>4416.664959891198</range>
 				<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
 			</LookAt>
-			<styleUrl>#m_ylw-pushpin</styleUrl>
+			<styleUrl>#m_ylw-pushpin0</styleUrl>
 			<Point>
 				<gx:drawOrder>1</gx:drawOrder>
 				<coordinates>-0.7991121363994647,44.72132468657567,0</coordinates>
@@ -210,7 +303,7 @@ Evènement : Feu de forêt
 				<range>3049.448968382924</range>
 				<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
 			</LookAt>
-			<styleUrl>#m_ylw-pushpin</styleUrl>
+			<styleUrl>#m_ylw-pushpin0</styleUrl>
 			<Point>
 				<gx:drawOrder>1</gx:drawOrder>
 				<coordinates>1.714001149354929,45.89350534676292,0</coordinates>
@@ -234,7 +327,7 @@ Evènement : Feu de forêt
 				<range>410.5175477786422</range>
 				<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
 			</LookAt>
-			<styleUrl>#m_ylw-pushpin</styleUrl>
+			<styleUrl>#m_ylw-pushpin0</styleUrl>
 			<Point>
 				<gx:drawOrder>1</gx:drawOrder>
 				<coordinates>-0.8207218397245097,44.80406137640821,0</coordinates>
@@ -258,7 +351,7 @@ Phase de lutte : en cours
 				<range>12022.69563219564</range>
 				<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
 			</LookAt>
-			<styleUrl>#m_ylw-pushpin</styleUrl>
+			<styleUrl>#m_ylw-pushpin0</styleUrl>
 			<Point>
 				<gx:drawOrder>1</gx:drawOrder>
 				<coordinates>1.799423423312407,45.85735153760878,0</coordinates>
@@ -283,7 +376,7 @@ Situation : 2000m²
 				<range>800.1998473772182</range>
 				<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
 			</LookAt>
-			<styleUrl>#m_ylw-pushpin</styleUrl>
+			<styleUrl>#m_ylw-pushpin0</styleUrl>
 			<Point>
 				<gx:drawOrder>1</gx:drawOrder>
 				<coordinates>-0.2918042316667102,44.40529204593555,0</coordinates>
@@ -307,7 +400,7 @@ Situation : 2000m²
 				<range>1368.339105350969</range>
 				<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
 			</LookAt>
-			<styleUrl>#m_ylw-pushpin</styleUrl>
+			<styleUrl>#m_ylw-pushpin0</styleUrl>
 			<Point>
 				<gx:drawOrder>1</gx:drawOrder>
 				<coordinates>-0.6546700429405194,44.94963740630586,0</coordinates>
@@ -329,7 +422,7 @@ Moyens : 👨‍= xx  /  🚒= xx  /  ✈ABE= xx  /  🚁 HBE= xx</description>
 				<range>8264.835523012769</range>
 				<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
 			</LookAt>
-			<styleUrl>#m_ylw-pushpin</styleUrl>
+			<styleUrl>#m_ylw-pushpin0</styleUrl>
 			<Point>
 				<gx:drawOrder>1</gx:drawOrder>
 				<coordinates>-0.5604767497076035,45.2366494743674,0</coordinates>
@@ -361,7 +454,7 @@ Moyens : 👨‍= xx / 🚒= 14 / ✈ABE= xx / 🚁 HBE= xx
 				<range>1405.505908443809</range>
 				<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
 			</LookAt>
-			<styleUrl>#m_ylw-pushpin</styleUrl>
+			<styleUrl>#m_ylw-pushpin0</styleUrl>
 			<Point>
 				<gx:drawOrder>1</gx:drawOrder>
 				<coordinates>-0.0748725877892098,44.40419242827449,0</coordinates>
@@ -383,7 +476,7 @@ Moyens : 👨‍= xx / 🚒= 14 / ✈ABE= xx / 🚁 HBE= xx
 				<range>800.1610069020712</range>
 				<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
 			</LookAt>
-			<styleUrl>#m_ylw-pushpin</styleUrl>
+			<styleUrl>#m_ylw-pushpin0</styleUrl>
 			<Point>
 				<gx:drawOrder>1</gx:drawOrder>
 				<coordinates>-0.2911384475172085,44.40495917929093,0</coordinates>
@@ -415,7 +508,7 @@ Moyens : 👨‍= xx / 🚒= 8 / ✈ABE= xx / 🚁 HBE= xx
 				<range>2104.819896174867</range>
 				<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
 			</LookAt>
-			<styleUrl>#m_ylw-pushpin</styleUrl>
+			<styleUrl>#m_ylw-pushpin0</styleUrl>
 			<Point>
 				<gx:drawOrder>1</gx:drawOrder>
 				<coordinates>-0.3009938972580917,44.48857840143206,0</coordinates>
@@ -438,7 +531,7 @@ Moyens : 👨‍= xx  /  🚒= 2  /  ✈ABE= xx  /  🚁 HBE= xx / Drone= 01</de
 				<range>279.1012128734344</range>
 				<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
 			</LookAt>
-			<styleUrl>#m_ylw-pushpin</styleUrl>
+			<styleUrl>#m_ylw-pushpin0</styleUrl>
 			<Point>
 				<gx:drawOrder>1</gx:drawOrder>
 				<coordinates>-0.04160426639299164,44.34274025515654,0</coordinates>
@@ -461,7 +554,7 @@ Moyens : 👨‍= xx  /  🚒= xx  /  ✈ABE= xx  /  🚁 HBE= xx</description>
 				<range>5767.866625293524</range>
 				<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
 			</LookAt>
-			<styleUrl>#m_ylw-pushpin</styleUrl>
+			<styleUrl>#m_ylw-pushpin0</styleUrl>
 			<Point>
 				<gx:drawOrder>1</gx:drawOrder>
 				<coordinates>1.626629954360976,46.11670353412708,0</coordinates>
