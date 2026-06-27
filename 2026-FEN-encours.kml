@@ -5,6 +5,16 @@
 	<StyleMap id="m_ylw-pushpin">
 		<Pair>
 			<key>normal</key>
+			<styleUrl>#s_ylw-pushpin</styleUrl>
+		</Pair>
+		<Pair>
+			<key>highlight</key>
+			<styleUrl>#s_ylw-pushpin_hl0</styleUrl>
+		</Pair>
+	</StyleMap>
+	<StyleMap id="m_ylw-pushpin0">
+		<Pair>
+			<key>normal</key>
 			<styleUrl>#s_ylw-pushpin7</styleUrl>
 		</Pair>
 		<Pair>
@@ -12,20 +22,20 @@
 			<styleUrl>#s_ylw-pushpin_hl</styleUrl>
 		</Pair>
 	</StyleMap>
-	<StyleMap id="m_ylw-pushpin0">
+	<StyleMap id="m_ylw-pushpin00">
 		<Pair>
 			<key>normal</key>
-			<styleUrl>#s_ylw-pushpin0</styleUrl>
+			<styleUrl>#s_ylw-pushpin4</styleUrl>
 		</Pair>
 		<Pair>
 			<key>highlight</key>
-			<styleUrl>#s_ylw-pushpin_hl0</styleUrl>
+			<styleUrl>#s_ylw-pushpin_hl6</styleUrl>
 		</Pair>
 	</StyleMap>
 	<StyleMap id="m_ylw-pushpin3">
 		<Pair>
 			<key>normal</key>
-			<styleUrl>#s_ylw-pushpin</styleUrl>
+			<styleUrl>#s_ylw-pushpin0</styleUrl>
 		</Pair>
 		<Pair>
 			<key>highlight</key>
@@ -34,6 +44,15 @@
 	</StyleMap>
 	<Style id="s_ylw-pushpin">
 		<IconStyle>
+			<scale>1.1</scale>
+			<Icon>
+				<href>http://maps.google.com/mapfiles/kml/pushpin/ylw-pushpin.png</href>
+			</Icon>
+			<hotSpot x="20" y="2" xunits="pixels" yunits="pixels"/>
+		</IconStyle>
+	</Style>
+	<Style id="s_ylw-pushpin0">
+		<IconStyle>
 			<scale>1.2</scale>
 			<Icon>
 				<href>http://maps.google.com/mapfiles/kml/shapes/firedept.png</href>
@@ -41,7 +60,7 @@
 			<hotSpot x="0.5" y="0" xunits="fraction" yunits="fraction"/>
 		</IconStyle>
 	</Style>
-	<Style id="s_ylw-pushpin0">
+	<Style id="s_ylw-pushpin4">
 		<IconStyle>
 			<scale>1.1</scale>
 			<Icon>
@@ -86,12 +105,20 @@
 			<hotSpot x="0.5" y="0" xunits="fraction" yunits="fraction"/>
 		</IconStyle>
 	</Style>
+	<Style id="s_ylw-pushpin_hl6">
+		<IconStyle>
+			<scale>1.3</scale>
+			<Icon>
+				<href>http://maps.google.com/mapfiles/kml/pushpin/ylw-pushpin.png</href>
+			</Icon>
+			<hotSpot x="20" y="2" xunits="pixels" yunits="pixels"/>
+		</IconStyle>
+	</Style>
 	<Folder>
 		<name>En cours</name>
 		<open>1</open>
 		<Placemark>
-			<name>Saugnac-et-Muret (40) - 26.06.2026 (20H00)
-</name>
+			<name>Saugnac-et-Muret (40) - 26.06.2026 (20H00)</name>
 			<LookAt>
 				<longitude>-0.856238586574939</longitude>
 				<latitude>44.400670932935</latitude>
@@ -101,7 +128,7 @@
 				<range>7461.405678470917</range>
 				<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
 			</LookAt>
-			<styleUrl>#m_ylw-pushpin0</styleUrl>
+			<styleUrl>#m_ylw-pushpin00</styleUrl>
 			<Point>
 				<gx:drawOrder>1</gx:drawOrder>
 				<coordinates>-0.8552703359076452,44.41322142053139,0</coordinates>
@@ -135,10 +162,46 @@
 				<range>6172.564421747988</range>
 				<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
 			</LookAt>
-			<styleUrl>#m_ylw-pushpin</styleUrl>
+			<styleUrl>#m_ylw-pushpin0</styleUrl>
 			<Point>
 				<gx:drawOrder>1</gx:drawOrder>
 				<coordinates>-0.7430480722002419,44.08505155580612,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>Bègle (33) - 27.06.2026 ()
+</name>
+			<LookAt>
+				<longitude>-0.5373818492369409</longitude>
+				<latitude>44.80048795439986</latitude>
+				<altitude>0</altitude>
+				<heading>0.004457772523578659</heading>
+				<tilt>39.95435063916715</tilt>
+				<range>2722.474113982561</range>
+				<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+			</LookAt>
+			<styleUrl>#m_ylw-pushpin</styleUrl>
+			<Point>
+				<gx:drawOrder>1</gx:drawOrder>
+				<coordinates>-0.5373818492369409,44.80048795439986,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>Aillas (33) - 27.06.2026 (16H00)
+</name>
+			<LookAt>
+				<longitude>-0.06156052867090867</longitude>
+				<latitude>44.48044592947693</latitude>
+				<altitude>0</altitude>
+				<heading>0.008161991409327558</heading>
+				<tilt>6.75997939324688</tilt>
+				<range>3708.648997099614</range>
+				<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+			</LookAt>
+			<styleUrl>#m_ylw-pushpin</styleUrl>
+			<Point>
+				<gx:drawOrder>1</gx:drawOrder>
+				<coordinates>-0.07286966941832174,44.47432213625839,0</coordinates>
 			</Point>
 		</Placemark>
 		<atom:link rel="app" href="https://www.google.com/earth/about/versions/#earth-pro" title="Google Earth Pro 7.3.7.1155"></atom:link>
