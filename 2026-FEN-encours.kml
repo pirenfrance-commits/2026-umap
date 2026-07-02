@@ -9,67 +9,10 @@
 		</Pair>
 		<Pair>
 			<key>highlight</key>
-			<styleUrl>#s_ylw-pushpin_hl0</styleUrl>
-		</Pair>
-	</StyleMap>
-	<StyleMap id="m_ylw-pushpin0">
-		<Pair>
-			<key>normal</key>
-			<styleUrl>#s_ylw-pushpin7</styleUrl>
-		</Pair>
-		<Pair>
-			<key>highlight</key>
 			<styleUrl>#s_ylw-pushpin_hl</styleUrl>
 		</Pair>
 	</StyleMap>
-	<StyleMap id="m_ylw-pushpin00">
-		<Pair>
-			<key>normal</key>
-			<styleUrl>#s_ylw-pushpin4</styleUrl>
-		</Pair>
-		<Pair>
-			<key>highlight</key>
-			<styleUrl>#s_ylw-pushpin_hl6</styleUrl>
-		</Pair>
-	</StyleMap>
-	<StyleMap id="m_ylw-pushpin3">
-		<Pair>
-			<key>normal</key>
-			<styleUrl>#s_ylw-pushpin0</styleUrl>
-		</Pair>
-		<Pair>
-			<key>highlight</key>
-			<styleUrl>#s_ylw-pushpin_hl5</styleUrl>
-		</Pair>
-	</StyleMap>
 	<Style id="s_ylw-pushpin">
-		<IconStyle>
-			<scale>1.1</scale>
-			<Icon>
-				<href>http://maps.google.com/mapfiles/kml/pushpin/ylw-pushpin.png</href>
-			</Icon>
-			<hotSpot x="20" y="2" xunits="pixels" yunits="pixels"/>
-		</IconStyle>
-	</Style>
-	<Style id="s_ylw-pushpin0">
-		<IconStyle>
-			<scale>1.2</scale>
-			<Icon>
-				<href>http://maps.google.com/mapfiles/kml/shapes/firedept.png</href>
-			</Icon>
-			<hotSpot x="0.5" y="0" xunits="fraction" yunits="fraction"/>
-		</IconStyle>
-	</Style>
-	<Style id="s_ylw-pushpin4">
-		<IconStyle>
-			<scale>1.1</scale>
-			<Icon>
-				<href>http://maps.google.com/mapfiles/kml/pushpin/ylw-pushpin.png</href>
-			</Icon>
-			<hotSpot x="20" y="2" xunits="pixels" yunits="pixels"/>
-		</IconStyle>
-	</Style>
-	<Style id="s_ylw-pushpin7">
 		<IconStyle>
 			<scale>1.1</scale>
 			<Icon>
@@ -87,121 +30,25 @@
 			<hotSpot x="20" y="2" xunits="pixels" yunits="pixels"/>
 		</IconStyle>
 	</Style>
-	<Style id="s_ylw-pushpin_hl0">
-		<IconStyle>
-			<scale>1.3</scale>
-			<Icon>
-				<href>http://maps.google.com/mapfiles/kml/pushpin/ylw-pushpin.png</href>
-			</Icon>
-			<hotSpot x="20" y="2" xunits="pixels" yunits="pixels"/>
-		</IconStyle>
-	</Style>
-	<Style id="s_ylw-pushpin_hl5">
-		<IconStyle>
-			<scale>1.4</scale>
-			<Icon>
-				<href>http://maps.google.com/mapfiles/kml/shapes/firedept.png</href>
-			</Icon>
-			<hotSpot x="0.5" y="0" xunits="fraction" yunits="fraction"/>
-		</IconStyle>
-	</Style>
-	<Style id="s_ylw-pushpin_hl6">
-		<IconStyle>
-			<scale>1.3</scale>
-			<Icon>
-				<href>http://maps.google.com/mapfiles/kml/pushpin/ylw-pushpin.png</href>
-			</Icon>
-			<hotSpot x="20" y="2" xunits="pixels" yunits="pixels"/>
-		</IconStyle>
-	</Style>
 	<Folder>
 		<name>En cours</name>
 		<open>1</open>
 		<Placemark>
-			<name>Saugnac-et-Muret (40) - 26.06.2026 (20H00)</name>
-			<LookAt>
-				<longitude>-0.856238586574939</longitude>
-				<latitude>44.400670932935</latitude>
-				<altitude>0</altitude>
-				<heading>-0.05838398601014408</heading>
-				<tilt>10.08277749085356</tilt>
-				<range>7461.405678470917</range>
-				<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
-			</LookAt>
-			<styleUrl>#m_ylw-pushpin00</styleUrl>
-			<Point>
-				<gx:drawOrder>1</gx:drawOrder>
-				<coordinates>-0.8552703359076452,44.41322142053139,0</coordinates>
-			</Point>
-		</Placemark>
-		<Placemark>
-			<name>Bousses (47) - 23.06.2026 (15H30)</name>
-			<LookAt>
-				<longitude>0.1174884103573048</longitude>
-				<latitude>44.14230438963174</latitude>
-				<altitude>0</altitude>
-				<heading>-0.7081801021068276</heading>
-				<tilt>10.7367727540188</tilt>
-				<range>4727.490196150325</range>
-				<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
-			</LookAt>
-			<styleUrl>#m_ylw-pushpin3</styleUrl>
-			<Point>
-				<gx:drawOrder>1</gx:drawOrder>
-				<coordinates>0.1067782580019783,44.14452707082779,0</coordinates>
-			</Point>
-		</Placemark>
-		<Placemark>
-			<name>Luglon (40) - 26.06.2026 (03H15)</name>
-			<LookAt>
-				<longitude>-0.7213862367341328</longitude>
-				<latitude>44.08350089970032</latitude>
-				<altitude>0</altitude>
-				<heading>-0.002566944261073461</heading>
-				<tilt>5.401080012801898</tilt>
-				<range>6172.564421747988</range>
-				<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
-			</LookAt>
-			<styleUrl>#m_ylw-pushpin0</styleUrl>
-			<Point>
-				<gx:drawOrder>1</gx:drawOrder>
-				<coordinates>-0.7430480722002419,44.08505155580612,0</coordinates>
-			</Point>
-		</Placemark>
-		<Placemark>
-			<name>Bègle (33) - 27.06.2026 ()
+			<name>Saint-Mariens (33) - 02.07.2026 (12H00)
 </name>
 			<LookAt>
-				<longitude>-0.5373818492369409</longitude>
-				<latitude>44.80048795439986</latitude>
+				<longitude>-0.380214094281035</longitude>
+				<latitude>45.12557602474949</latitude>
 				<altitude>0</altitude>
-				<heading>0.004457772523578659</heading>
-				<tilt>39.95435063916715</tilt>
-				<range>2722.474113982561</range>
+				<heading>-0.07315120131866966</heading>
+				<tilt>11.98681489139302</tilt>
+				<range>1134.400725122239</range>
 				<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
 			</LookAt>
 			<styleUrl>#m_ylw-pushpin</styleUrl>
 			<Point>
 				<gx:drawOrder>1</gx:drawOrder>
-				<coordinates>-0.5373818492369409,44.80048795439986,0</coordinates>
-			</Point>
-		</Placemark>
-		<Placemark>
-			<name>Aillas (33) - 27.06.2026 (16H00)
-</name>
-			<LookAt>
-				<longitude>-0.06156052867090867</longitude>
-				<latitude>44.48044592947693</latitude>
-				<altitude>0</altitude>
-				<heading>0.008161991409327558</heading>
-				<tilt>6.75997939324688</tilt>
-				<range>3708.648997099614</range>
-				<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
-			</LookAt>
-			<styleUrl>#m_ylw-pushpin</styleUrl>
-			<Point>
-				<gx:drawOrder>1</gx:drawOrder>
-				<coordinates>-0.07286966941832174,44.47432213625839,0</coordinates>
+				<coordinates>-0.3834879452530837,45.12671960548914,0</coordinates>
 			</Point>
 		</Placemark>
 		<atom:link rel="app" href="https://www.google.com/earth/about/versions/#earth-pro" title="Google Earth Pro 7.3.7.1155"></atom:link>
