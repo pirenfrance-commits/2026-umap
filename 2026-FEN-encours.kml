@@ -5,6 +5,16 @@
 	<StyleMap id="m_ylw-pushpin">
 		<Pair>
 			<key>normal</key>
+			<styleUrl>#s_ylw-pushpin0</styleUrl>
+		</Pair>
+		<Pair>
+			<key>highlight</key>
+			<styleUrl>#s_ylw-pushpin_hl0</styleUrl>
+		</Pair>
+	</StyleMap>
+	<StyleMap id="m_ylw-pushpin0">
+		<Pair>
+			<key>normal</key>
 			<styleUrl>#s_ylw-pushpin</styleUrl>
 		</Pair>
 		<Pair>
@@ -13,6 +23,15 @@
 		</Pair>
 	</StyleMap>
 	<Style id="s_ylw-pushpin">
+		<IconStyle>
+			<scale>1.1</scale>
+			<Icon>
+				<href>http://maps.google.com/mapfiles/kml/pushpin/ylw-pushpin.png</href>
+			</Icon>
+			<hotSpot x="20" y="2" xunits="pixels" yunits="pixels"/>
+		</IconStyle>
+	</Style>
+	<Style id="s_ylw-pushpin0">
 		<IconStyle>
 			<scale>1.1</scale>
 			<Icon>
@@ -30,12 +49,56 @@
 			<hotSpot x="20" y="2" xunits="pixels" yunits="pixels"/>
 		</IconStyle>
 	</Style>
+	<Style id="s_ylw-pushpin_hl0">
+		<IconStyle>
+			<scale>1.3</scale>
+			<Icon>
+				<href>http://maps.google.com/mapfiles/kml/pushpin/ylw-pushpin.png</href>
+			</Icon>
+			<hotSpot x="20" y="2" xunits="pixels" yunits="pixels"/>
+		</IconStyle>
+	</Style>
 	<Folder>
 		<name>En cours</name>
 		<open>1</open>
 		<Placemark>
-			<name>Marions (33) - 05.07.2026 (01H30)
+			<name>Tonneins (47) - 05.07.2026 (14H30)
 </name>
+			<LookAt>
+				<longitude>0.3265936242682987</longitude>
+				<latitude>44.34435563174911</latitude>
+				<altitude>0</altitude>
+				<heading>0.004557012153567583</heading>
+				<tilt>23.2820194886478</tilt>
+				<range>1699.337248120991</range>
+				<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+			</LookAt>
+			<styleUrl>#m_ylw-pushpin</styleUrl>
+			<Point>
+				<gx:drawOrder>1</gx:drawOrder>
+				<coordinates>0.3209151090587681,44.34244071697672,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>Blanquefort (33) - 05.07.2026 (14H30)
+</name>
+			<LookAt>
+				<longitude>-0.6146045221895424</longitude>
+				<latitude>44.93357456906799</latitude>
+				<altitude>0</altitude>
+				<heading>0.002249845193745598</heading>
+				<tilt>8.775525759064577</tilt>
+				<range>1281.175183162065</range>
+				<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+			</LookAt>
+			<styleUrl>#m_ylw-pushpin</styleUrl>
+			<Point>
+				<gx:drawOrder>1</gx:drawOrder>
+				<coordinates>-0.6187282079533396,44.93429250011548,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>Marions (33) - 05.07.2026 (01H30)</name>
 			<LookAt>
 				<longitude>-0.09704344685852684</longitude>
 				<latitude>44.35918608043243</latitude>
@@ -45,7 +108,7 @@
 				<range>727.5681627828827</range>
 				<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
 			</LookAt>
-			<styleUrl>#m_ylw-pushpin</styleUrl>
+			<styleUrl>#m_ylw-pushpin0</styleUrl>
 			<Point>
 				<gx:drawOrder>1</gx:drawOrder>
 				<coordinates>-0.09614225209333416,44.357691150129,0</coordinates>
