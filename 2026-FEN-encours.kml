@@ -34,21 +34,21 @@
 		<name>En cours</name>
 		<open>1</open>
 		<Placemark>
-			<name>Saint-Mariens (33) - 02.07.2026 (12H00)
+			<name>Marions (33) - 05.07.2026 (01H30)
 </name>
 			<LookAt>
-				<longitude>-0.380214094281035</longitude>
-				<latitude>45.12557602474949</latitude>
+				<longitude>-0.09704344685852684</longitude>
+				<latitude>44.35918608043243</latitude>
 				<altitude>0</altitude>
-				<heading>-0.07315120131866966</heading>
-				<tilt>11.98681489139302</tilt>
-				<range>1134.400725122239</range>
+				<heading>-1.752949765390052</heading>
+				<tilt>26.53954980019898</tilt>
+				<range>727.5681627828827</range>
 				<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
 			</LookAt>
 			<styleUrl>#m_ylw-pushpin</styleUrl>
 			<Point>
 				<gx:drawOrder>1</gx:drawOrder>
-				<coordinates>-0.3834879452530837,45.12671960548914,0</coordinates>
+				<coordinates>-0.09614225209333416,44.357691150129,0</coordinates>
 			</Point>
 		</Placemark>
 		<atom:link rel="app" href="https://www.google.com/earth/about/versions/#earth-pro" title="Google Earth Pro 7.3.7.1155"></atom:link>
