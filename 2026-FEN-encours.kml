@@ -114,6 +114,42 @@
 				<coordinates>-0.09614225209333416,44.357691150129,0</coordinates>
 			</Point>
 		</Placemark>
+		<Placemark>
+			<name> Montagne (33) - 05.07.2026 (16H00)
+</name>
+			<LookAt>
+				<longitude>-0.1121027561997334</longitude>
+				<latitude>44.92948640226767</latitude>
+				<altitude>0</altitude>
+				<heading>-0.4212063882503188</heading>
+				<tilt>19.71701681875912</tilt>
+				<range>2903.933671338064</range>
+				<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+			</LookAt>
+			<styleUrl>#m_ylw-pushpin</styleUrl>
+			<Point>
+				<gx:drawOrder>1</gx:drawOrder>
+				<coordinates>-0.1155211043334381,44.93045656728191,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>St Loubès (33) - 05.07.2026 (19H00)
+</name>
+			<LookAt>
+				<longitude>-0.4586602305031118</longitude>
+				<latitude>44.93474045923725</latitude>
+				<altitude>0</altitude>
+				<heading>-52.97939997675134</heading>
+				<tilt>47.47801549205027</tilt>
+				<range>139.0576998614657</range>
+				<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+			</LookAt>
+			<styleUrl>#m_ylw-pushpin</styleUrl>
+			<Point>
+				<gx:drawOrder>1</gx:drawOrder>
+				<coordinates>-0.45939468593994,44.93479586531101,0</coordinates>
+			</Point>
+		</Placemark>
 		<atom:link rel="app" href="https://www.google.com/earth/about/versions/#earth-pro" title="Google Earth Pro 7.3.7.1155"></atom:link>
 	</Folder>
 </Document>
