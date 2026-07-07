@@ -5,16 +5,6 @@
 	<StyleMap id="m_ylw-pushpin">
 		<Pair>
 			<key>normal</key>
-			<styleUrl>#s_ylw-pushpin0</styleUrl>
-		</Pair>
-		<Pair>
-			<key>highlight</key>
-			<styleUrl>#s_ylw-pushpin_hl0</styleUrl>
-		</Pair>
-	</StyleMap>
-	<StyleMap id="m_ylw-pushpin0">
-		<Pair>
-			<key>normal</key>
 			<styleUrl>#s_ylw-pushpin</styleUrl>
 		</Pair>
 		<Pair>
@@ -23,15 +13,6 @@
 		</Pair>
 	</StyleMap>
 	<Style id="s_ylw-pushpin">
-		<IconStyle>
-			<scale>1.1</scale>
-			<Icon>
-				<href>http://maps.google.com/mapfiles/kml/pushpin/ylw-pushpin.png</href>
-			</Icon>
-			<hotSpot x="20" y="2" xunits="pixels" yunits="pixels"/>
-		</IconStyle>
-	</Style>
-	<Style id="s_ylw-pushpin0">
 		<IconStyle>
 			<scale>1.1</scale>
 			<Icon>
@@ -49,105 +30,25 @@
 			<hotSpot x="20" y="2" xunits="pixels" yunits="pixels"/>
 		</IconStyle>
 	</Style>
-	<Style id="s_ylw-pushpin_hl0">
-		<IconStyle>
-			<scale>1.3</scale>
-			<Icon>
-				<href>http://maps.google.com/mapfiles/kml/pushpin/ylw-pushpin.png</href>
-			</Icon>
-			<hotSpot x="20" y="2" xunits="pixels" yunits="pixels"/>
-		</IconStyle>
-	</Style>
 	<Folder>
 		<name>En cours</name>
 		<open>1</open>
 		<Placemark>
-			<name>Tonneins (47) - 05.07.2026 (14H30)
+			<name>Avensan (33) - 07.07.2026 (16H00)
 </name>
 			<LookAt>
-				<longitude>0.3265936242682987</longitude>
-				<latitude>44.34435563174911</latitude>
+				<longitude>-0.7608308821793121</longitude>
+				<latitude>44.98584874087946</latitude>
 				<altitude>0</altitude>
-				<heading>0.004557012153567583</heading>
-				<tilt>23.2820194886478</tilt>
-				<range>1699.337248120991</range>
+				<heading>-1.694556099153126</heading>
+				<tilt>4.49438120369688</tilt>
+				<range>7417.425357955583</range>
 				<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
 			</LookAt>
 			<styleUrl>#m_ylw-pushpin</styleUrl>
 			<Point>
 				<gx:drawOrder>1</gx:drawOrder>
-				<coordinates>0.3209151090587681,44.34244071697672,0</coordinates>
-			</Point>
-		</Placemark>
-		<Placemark>
-			<name>Blanquefort (33) - 05.07.2026 (14H30)
-</name>
-			<LookAt>
-				<longitude>-0.6146045221895424</longitude>
-				<latitude>44.93357456906799</latitude>
-				<altitude>0</altitude>
-				<heading>0.002249845193745598</heading>
-				<tilt>8.775525759064577</tilt>
-				<range>1281.175183162065</range>
-				<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
-			</LookAt>
-			<styleUrl>#m_ylw-pushpin</styleUrl>
-			<Point>
-				<gx:drawOrder>1</gx:drawOrder>
-				<coordinates>-0.6187282079533396,44.93429250011548,0</coordinates>
-			</Point>
-		</Placemark>
-		<Placemark>
-			<name>Marions (33) - 05.07.2026 (01H30)</name>
-			<LookAt>
-				<longitude>-0.09704344685852684</longitude>
-				<latitude>44.35918608043243</latitude>
-				<altitude>0</altitude>
-				<heading>-1.752949765390052</heading>
-				<tilt>26.53954980019898</tilt>
-				<range>727.5681627828827</range>
-				<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
-			</LookAt>
-			<styleUrl>#m_ylw-pushpin0</styleUrl>
-			<Point>
-				<gx:drawOrder>1</gx:drawOrder>
-				<coordinates>-0.09614225209333416,44.357691150129,0</coordinates>
-			</Point>
-		</Placemark>
-		<Placemark>
-			<name> Montagne (33) - 05.07.2026 (16H00)
-</name>
-			<LookAt>
-				<longitude>-0.1121027561997334</longitude>
-				<latitude>44.92948640226767</latitude>
-				<altitude>0</altitude>
-				<heading>-0.4212063882503188</heading>
-				<tilt>19.71701681875912</tilt>
-				<range>2903.933671338064</range>
-				<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
-			</LookAt>
-			<styleUrl>#m_ylw-pushpin</styleUrl>
-			<Point>
-				<gx:drawOrder>1</gx:drawOrder>
-				<coordinates>-0.1155211043334381,44.93045656728191,0</coordinates>
-			</Point>
-		</Placemark>
-		<Placemark>
-			<name>St Loubès (33) - 05.07.2026 (19H00)
-</name>
-			<LookAt>
-				<longitude>-0.4586602305031118</longitude>
-				<latitude>44.93474045923725</latitude>
-				<altitude>0</altitude>
-				<heading>-52.97939997675134</heading>
-				<tilt>47.47801549205027</tilt>
-				<range>139.0576998614657</range>
-				<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
-			</LookAt>
-			<styleUrl>#m_ylw-pushpin</styleUrl>
-			<Point>
-				<gx:drawOrder>1</gx:drawOrder>
-				<coordinates>-0.45939468593994,44.93479586531101,0</coordinates>
+				<coordinates>-0.7861233287913927,44.9841161109537,0</coordinates>
 			</Point>
 		</Placemark>
 		<atom:link rel="app" href="https://www.google.com/earth/about/versions/#earth-pro" title="Google Earth Pro 7.3.7.1155"></atom:link>
